@@ -11,9 +11,9 @@ app.use(bodyParser.json());
 app.post('/bfhl', (req, res) => {
   try {
     const data = req.body.data;
-    const userId = generateUserId("Yadav", "Vikash Ramkailash","07082003");
-    const email = "yadav3878.be21@chitkara.edu.in";
-    const rollNumber = "2110993878";
+    const userId = generateUserId("Satvik", "Jangra","23052003");
+    const email = "satvik3881.be21@chitkara.edu.in";
+    const rollNumber = "2110993881";
     
     const evenNumbers = [];
     const oddNumbers = [];
